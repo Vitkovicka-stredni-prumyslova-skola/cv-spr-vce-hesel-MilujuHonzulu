@@ -18,18 +18,24 @@ namespace Spravcehesel
         private static int minDelkaHesla = 8;
 
 
-        int DelkaHesla(){
+
+
+        String[] malaPismena  = [""]
+        String[] velkaPismena = [""]
+        String[] cisla = [""]
+        string specialniZnaky = [""]
+           
+        public int DelkaHesla(){
             return 0;
-            
-
-
-
-
-
-
+        }
+        public int MaxDelkaHesla (){
+            return maxDelkaHesla;
+        }
+        public int MinDelkaHesla (){
+            return minDelkaHesla;
         }
 
-
+        public static void
 
     }
 
